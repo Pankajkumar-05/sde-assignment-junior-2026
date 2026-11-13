@@ -1,0 +1,8 @@
+# Local state that must never be committed: databases, the PII key file, generated output.
+*.db
+*.db-*
+*.key
+ledger.db*
+reports/
+__pycache__/
+.pytest_cache/
